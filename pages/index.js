@@ -1,8 +1,10 @@
 import Head from 'next/head'
+import ItemsGrid from '../components/ItemsGrid'
 import Footer from '../parts/footer'
 import Header from '../parts/header'
 
 export default function Home() {
+
   return (
     <div>
       <Head>
@@ -12,6 +14,8 @@ export default function Home() {
       </Head>
 
       <Header/>
+
+      <ItemsGrid />
 
       <Footer/>
 

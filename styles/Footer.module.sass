@@ -2,10 +2,27 @@
 
 .mainFooter
     background-color: $gray
-    padding: 50px $lateral-spacing 58px
+    padding: 50px 35px 58px
     .credit
         text-align: center
         p
+            font-size: 13px
             margin-bottom: 48px
             &:last-child
                 margin-bottom: 0
+
+@media (min-width: 768px)
+    .mainFooter
+        padding:
+            top: 10vw
+            left: 10vw
+            right: 10vw
+            bottom: 11vw
+
+@media (min-width: 1024px)
+    .mainFooter
+        padding:
+            top: 7.5vw
+            left: 12vw
+            right: 12vw
+            bottom: 8vw

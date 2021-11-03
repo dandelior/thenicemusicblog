@@ -1,7 +1,7 @@
 @import _presets
 
 .mainHeader
-    padding: 75px $lateral-spacing 97px
+    padding: 75px 35px 97px
     .menu
         text-align: center
         margin-bottom: 87px
@@ -31,3 +31,18 @@
                 background: -moz-linear-gradient(90deg, #FF0000 -1.04%, #EBFF00 24.39%, #00FF57 50.36%, #00C2FF 76.85%, #0500FF 100.69%)
                 background: -webkit-linear-gradient(90deg, #FF0000 -1.04%, #EBFF00 24.39%, #00FF57 50.36%, #00C2FF 76.85%, #0500FF 100.69%)
                 background: linear-gradient(90deg, #FF0000 -1.04%, #EBFF00 24.39%, #00FF57 50.36%, #00C2FF 76.85%, #0500FF 100.69%)
+
+@media (min-width: 768px)
+    .mainHeader
+        // padding: 
+        //     left: 10vw
+        //     right: 10vw
+        .menu
+            display: flex
+            justify-content: space-between
+
+@media (min-width: 1024px)
+    .mainHeader
+        // padding: 
+        //     left: 12vw
+        //     right: 12vw
