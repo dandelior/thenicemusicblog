@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from '../styles/Header.module.sass';
 
 const Header = () => {
@@ -12,6 +13,23 @@ const Header = () => {
                     <a>Archivo</a>
                 </Link>
             </nav>
+            <div className={styles.branding}>
+                <Link href="/">
+                    <a>
+                        <Image
+                            src="/images/nais.svg"
+                            alt="Logo The Nice Music Blog"
+                            width={'32px'}
+                            height={'37px'}
+                            // className={styles.img}
+                        />
+                        <p>
+                            —クラブ—<br />
+                            THE NICE MUSIC CLUB
+                        </p>
+                    </a>
+                </Link>
+            </div>
         </header>
     )
 }

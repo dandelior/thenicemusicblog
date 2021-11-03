@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <Header/>
-      <h1>It works!</h1>
+
       <Footer/>
 
     </div>

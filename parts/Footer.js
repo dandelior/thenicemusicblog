@@ -1,7 +1,17 @@
+import styles from '../styles/Footer.module.sass';
+
 const Footer = () => {
     return (
-        <footer>
-            <p>aqui va el footer</p>
+        <footer className={styles.mainFooter}>
+            <div className={styles.credit}>
+                <p>
+                    —クラブ—<br />
+                    the NICE MUSIC CLUB
+                </p>
+                <p>
+                    REVIEWS EN ESPAÑOL
+                </p>
+            </div>
         </footer>
     )
 }
