@@ -15,14 +15,40 @@
     .mainFooter
         padding:
             top: 10vw
-            left: 10vw
-            right: 10vw
+            // left: 10vw
+            // right: 10vw
             bottom: 11vw
+        .credit
+            display: flex
+            justify-content: space-between
+            margin-bottom: 0
+            p
+                margin-bottom: 0
+                &:first-child
+                    text-align: left
+                &:last-child
+                    text-align: right
 
 @media (min-width: 1024px)
     .mainFooter
         padding:
             top: 7.5vw
-            left: 12vw
-            right: 12vw
+            left: 5vw
+            right: 5vw
             bottom: 8vw
+
+@media (min-width: 1280px)
+    .mainFooter
+        padding:
+            // top: 7.5vw
+            left: 5.6vw
+            right: 5.6vw
+            // bottom: 8vw
+
+@media (min-width: 1440px)
+    .mainFooter
+        padding:
+            // top: 7.5vw
+            left: 4.9vw
+            right: 4.9vw
+            // bottom: 8vw
